@@ -1,0 +1,46 @@
+body{
+	background-image:url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+*{
+	background-color:;
+	padding:20px;
+	border-radius:6px;
+	border:none;
+	margin:5px;
+
+}
+
+.container{
+   display:flex;
+   margin:100px auto;
+   justify-content:center;
+   align-items:center;
+
+
+
+
+}
+
+
+
+
+.calculator{
+
+	display: grid;
+	grid-template-columns:repeat(4, 80px);
+	background-color:rgba(255, 255, 255, 0.36);
+	border-radius:30px;
+
+}
+
+input{
+
+	grid-column:span 4;
+	box-shadow:inset 5px 5px 12px rgba(0, 0, 0, 0.16);
+	font-size:40px;
+	font-family:monospace;
+
+}
